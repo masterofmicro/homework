@@ -1,5 +1,5 @@
 // 1.
-const animal = "Fox"
+let animal = "Fox"
 
 switch(animal){
     case "cow":
@@ -16,7 +16,7 @@ switch(animal){
 }
 //2.
 function colorOfFruit(apple,banana,grape,blueberry) {
-    let fruit = blueberry;
+    let fruit = "tomato";
     if (fruit === apple) {
     console.log("These apples are " + apple);
     } else if (fruit === banana) {
