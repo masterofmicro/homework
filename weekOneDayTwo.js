@@ -15,19 +15,20 @@ switch(animal){
      console.log("🎶WHAT DOES THE FOX SAY!!!!🎶")
 }
 //2.
-function colorOfFruit() {
-    let fruit = "grape";
-    if (fruit === "apple") {
-    console.log("These apples are Red!");
-    } else if (fruit === "banana") {
-    console.log("Bananas are Yellow!");
-    } else if (fruit === "grape") {
-    console.log("These grapes are Purple!");
-    } else if (fruit === "blueberry") {
-    console.log("Blueberries are Blue!");
+function colorOfFruit(apple,banana,grape,blueberry) {
+    let fruit = blueberry;
+    if (fruit === apple) {
+    console.log("These apples are " + apple);
+    } else if (fruit === banana) {
+    console.log("Bananas are " + banana);
+    } else if (fruit === grape) {
+    console.log("These grapes are " + grape);
+    } else if (fruit === blueberry) {
+    console.log("Blueberries are " + blueberry);
     } else console.log("Please choose another fruit.")
 }
-colorOfFruit();
+colorOfFruit("red","yellow","purprle","blue"); 
+
 
 
 // 3.
