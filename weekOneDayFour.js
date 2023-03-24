@@ -24,13 +24,15 @@ const fruitBucket= [
 
 ]
 
-//this function takes an array as an it's first arguement, removes the first item from that array and adds the second argument to the end of the array
 function fruitPicker(array, any){
 
   const pickFruit = array.shift()
   const placeFruit = array.push(any)
-  console.log(array)
-  
+  //console.log(array)
+
+  return array
+
 }
 
-fruitPicker(fruitBucket, "kiwi")
+const modifiedBucket = fruitPicker(fruitBucket, "kiwi")
+console.log(modifiedBucket)
