@@ -25,13 +25,12 @@ const fruitBucket= [
 ]
 
 //this function takes an array as an input, removes the first item from the array and adds "kiwi" to the end
-function fruitPicker(any, array){
+function fruitPicker(array, any){
 
   const pickFruit = array.shift()
-  const placeFruit = array.push("kiwi")
-   
+  const placeFruit = array.push(any)
   console.log(array)
-    
+  
 }
 
-fruitPicker(0, fruitBucket)
+fruitPicker(fruitBucket, "kiwi")
